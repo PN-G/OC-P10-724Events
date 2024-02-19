@@ -28,6 +28,9 @@
   display: flex;
   position: absolute;
   z-index: 1;
+  & :hover {
+    cursor: pointer;
+  }
   ul {
     position: relative;
     list-style: none;
@@ -55,6 +58,9 @@
     height: 32px;
     margin-top: 16px;
     margin-right: 8px;
+    & :hover {
+      cursor: pointer;
+    }
     &.close {
       transform: rotate(180deg);
     }
